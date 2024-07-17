@@ -1,0 +1,74 @@
+:root{
+    --background-color-1 : #4c89e3;
+    --text-color-1: #ffffff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    width: 100%;
+    background-color: var(--background-color-1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color-1);
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: var(--text-color-1);
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.titulo{
+    text-align: justify;
+    margin-top: 3vh;
+}
+
+.subtitulo{
+    margin: 5px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+    color: var(--background-color-1);
+    border: 2px solid var(--background-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5vh;
+    transition: all 1s;
+}
+
+.botao:hover{
+    background-color: var(--background-color-1);
+    color: var(--text-color-1);
+    
+}
