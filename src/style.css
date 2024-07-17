@@ -42,13 +42,26 @@ header{
     padding: 10px;
 }
 
+.categoria{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    background-color: aqua;
+}
+
 .titulo{
     text-align: justify;
-    margin-top: 3vh;
+    margin: 3vh 0vh;
+    font-size: 25px;
 }
 
 .subtitulo{
     margin: 5px;
+}
+
+.capa{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .botao{
@@ -65,6 +78,8 @@ header{
     width: 100%;
     margin-top: 5vh;
     transition: all 1s;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .botao:hover{
